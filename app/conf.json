@@ -1,0 +1,96 @@
+{
+  "_route_address": {
+    "/system_call/model": "/model_name/table_name",
+    "/system_call/controller": "/controller_name",
+    "/system_call/entity": "/entity_name",
+    "/system_call/build_table": "/entity_name",
+    "/system_call/initialize": "/model",
+    "/system_call/create_init": "/init_name",
+
+    "/api/view": "/key",
+    "/api/show_page": "/page_number",
+    "/api/rm_permission": "/key/table/permission",
+    "/api/edit": "/key",
+    "/api/save": "/agent_name/company_name",
+    "/api/add_permission": "/key/tables/permission",
+
+    "/Auth/login": "/user_name/password",
+    "/Auth/api_login": "/user_name/password",
+    "/Auth/forget_password": "/user_name/email",
+    "/Auth/confirm": "/code/user",
+    "/pages/auth/recovery": "/user",
+
+    "/Admin/view": "/table",
+    "/Admin/new_attribute": "/table",
+    "/Admin/change_model": "/table",
+    "/pages/admin/add": "/table",
+    "/Admin/edit": "/change/on/index/table/value",
+    "/Admin/save": "/table/category/name/type/length/nullable/on/Reference/autoincrement/sign/unique/setPrimaryKey",
+
+    "/Users/save": "/username/role/f_name/l_name/phone/email",
+    "/Users/delete": "/user",
+    "/Users/view": "/user",
+
+    "/Archive/get_image": "/image",
+
+    "/Orders/design_preference": "/design_for",
+    "/Orders/shirt_preference": "/shirt_type/shirt_size/shirt_color/amount",
+    "/Orders/cup_preference": "/cup_size/cup_color/amount",
+    "/Orders/wedding_preference": "/card_size/card_type/amount",
+    "/Orders/flier_preference": "/card_size/card_type/amount",
+    "/Orders/business_preference": "/card_size/card_type/amount",
+    "/Orders/banner_preference": "/banner_height/banner_width/amount/banner_material",
+    "/Orders/admin_view": "/order",
+    "/Orders/set_to_preview": "/order",
+    "/Orders/set_to_finished": "/order",
+    "/Orders/set_to_payed": "/order",
+    "/Orders/set_to_delivered": "/order",
+    "/Orders/set_to_printing": "/order",
+    "/Orders/show": "/determiner/page_number",
+    "/Orders/check_my_order": "/order/password",
+    "/Orders/more_info": "/new_password/confirm_password/additional_text/email/phone_number/address/name",
+    "/Orders/init_by_design": "/type/design/payment",
+    "/Orders/admin_api_order": "/order",
+    "/Orders/customer_order": "/order",
+    "/Orders/designer_api_order": "/order",
+    "/Orders/admin_cancel": "/order",
+    "/Orders/cancel": "/order",
+    "/Orders/approve": "/order/return_date",
+    "/Orders/designer_view": "/order",
+    "/Orders/stat": "/when",
+
+    "/Preferences/admin_api_view": "/order",
+    "/Preferences/customer_view": "/order",
+    "/Preferences/designer_api_view": "/order",
+
+    "/Previews/api_admin_preview": "/order",
+    "/Previews/customer_view": "/order",
+    "/Previews/api_designer_preview": "/order",
+    "/Previews/save": "/order",
+    "/Previews/api_decline": "/preview",
+    "/Previews/api_grant": "/preview",
+    "/Previews/api_delete": "/preview",
+    "/Previews/customer_select": "/preview/order",
+
+    "/OrdersDesigners/save": "/designer/order",
+
+    "/Designs/open_designs": "/type",
+    "/Designs/save": "/name/type",
+    "/Designs/selected_design": "/design",
+    "/Designs/approve_design": "/design/price",
+    "/Designs/reject_design": "/design",
+    "/Designs/admin_approval": "/type",
+
+    "/pages/open/card_preference": "/type",
+    "/OrdersDesigners/my_order": "/designer",
+    "/OrdersDesigners/finish_order": "/order",
+
+    "/Prices/save": "/type/determiner/value/price",
+    "/Prices/delete": "/type/determiner/value",
+
+    "/Posts/save": "/text",
+    "/Posts/show": "/page_number"
+  },
+
+  "auto_api": true
+}

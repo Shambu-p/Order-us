@@ -1,0 +1,10 @@
+{
+  "project_name": "order_us",
+  "project_email": "abnet.kebede075@gmail.com",
+  "api_provider_name": "AbSoft",
+  "version": "3.0",
+  "framework_type": "full",
+  "update_address": "http://localhost/absoft/public/",
+
+  "untrusted_ip": []
+}

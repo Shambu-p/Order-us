@@ -1,0 +1,142 @@
+.my_them{
+
+    background: #050088;
+
+}
+
+.my_them1{
+
+    background: #cecece;
+
+}
+
+.my_them3{
+
+    background: #7a00b6;
+
+}
+
+.my_them2{
+
+    background: #ba0064;
+
+}
+
+.my_them4{
+
+    background: #ededed;
+
+}
+
+.my_dark{
+    background: black;
+    color: white;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.heading_img{
+    display: inline-block;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 0;
+    transform: translateY(10%);
+}
+
+.line_heading{
+    height: 100px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.title_head{
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0 0 0 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.line_container{
+    background: whitesmoke;
+    color: black;
+    width: 80%;
+    padding: 0 30px 0 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-delay: 500ms;
+    transition-duration: 500ms;
+}
+
+.line_title{
+    color: black;
+    font-size: 60px;
+    line-height: 1;
+    font-family: 'Nirmala UI Semilight', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sub_title{
+    color: black;
+    font-size: 20px;
+    font-family: 'Nirmala UI Semilight', sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+.main_img{
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 600px){
+
+    .line_container{
+        width: 98%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading_img{
+        height: 80px;
+    }
+
+    .line_heading{
+        height: 80px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .main_img{
+        width: 100%;
+        height: auto;
+    }
+
+}

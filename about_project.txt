@@ -1,0 +1,24 @@
+Update Documentation [pending]
+Exceptions [pending]
+Distributed data  [pending]
+
+Admin Panel [pending]
+
+creating_model [pending]
+creating_entity [pending]
+creating_controller [pending]
+creating_initializer [pending]
+
+change databaseBuilders [tested]
+
+table creation [pending]
+initializer execution [pending]
+
+Creating authentication [almost and no registration]
+automatic API read [tested]
+automatic API authentication [tested]
+
+hasMany [tested]
+hasOne [tested]
+Initializer Creation [tested]
+Multiple Insertion [tested]

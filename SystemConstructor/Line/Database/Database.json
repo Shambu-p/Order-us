@@ -1,0 +1,36 @@
+{
+  "MySql": {
+    "first": {
+      "DB_NAME": "smart_techno",
+      "DB_USERNAME": "root",
+      "DB_PASSWORD": "",
+      "HOST_ADDRESS": "localhost"
+    },
+    "second": {
+      "DB_NAME": "line",
+      "DB_USERNAME": "root",
+      "DB_PASSWORD": "",
+      "HOST_ADDRESS": "localhost"
+    },
+    "third": {
+      "DB_NAME": "line",
+      "DB_USERNAME": "root",
+      "DB_PASSWORD": "",
+      "HOST_ADDRESS": "localhost"
+    }
+  },
+  "MsSql": {
+    "first": {
+      "DB_NAME": "my_school",
+      "DB_USERNAME": "Abnet",
+      "DB_PASSWORD": "abnetk",
+      "HOST_ADDRESS": "localhost"
+    },
+    "second": {
+      "DB_NAME": "my_school",
+      "DB_USERNAME": "abnet",
+      "DB_PASSWORD": "abnetk",
+      "HOST_ADDRESS": "localhost"
+    }
+  }
+}
